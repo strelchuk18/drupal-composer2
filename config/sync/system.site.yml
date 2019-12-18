@@ -1,0 +1,14 @@
+uuid: 6dc5e009-7d65-4ae2-a9eb-2f39a06afe36
+name: drupal-composer
+mail: strelchuk18@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

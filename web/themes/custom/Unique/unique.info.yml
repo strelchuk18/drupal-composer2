@@ -1,0 +1,12 @@
+name: Unique
+description: Sub theme Classy
+type: theme
+core: 8.x
+base theme: classy
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+  content: Content

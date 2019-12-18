@@ -1,0 +1,22 @@
+uuid: 946e724c-a8c5-4286-8e12-6bf8e0adcd1f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - unique
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: unique_local_tasks
+theme: unique
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: fd216d7c-7817-4c12-81e3-b0b53e9ccb5d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - strelchuk18@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

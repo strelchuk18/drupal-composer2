@@ -1,0 +1,21 @@
+uuid: 0d8be686-50a5-4c04-acf0-83c58491b50e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_drush_command
+    - node.type.drush_commands
+id: node.drush_commands.field_drush_command
+field_name: field_drush_command
+entity_type: node
+bundle: drush_commands
+label: 'Drush command'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: $
+default_value_callback: ''
+settings: {  }
+field_type: string

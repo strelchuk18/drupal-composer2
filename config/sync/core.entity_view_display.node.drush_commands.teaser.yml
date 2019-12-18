@@ -1,0 +1,34 @@
+uuid: ec295e0b-bbf9-4cb3-a50d-ac36b406de83
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.drush_commands.body
+    - field.field.node.drush_commands.field_aliases
+    - field.field.node.drush_commands.field_drush_command
+    - node.type.drush_commands
+  module:
+    - text
+    - user
+id: node.drush_commands.teaser
+targetEntityType: node
+bundle: drush_commands
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_aliases: true
+  field_drush_command: true
