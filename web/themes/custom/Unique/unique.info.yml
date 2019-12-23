@@ -10,3 +10,7 @@ regions:
   page_bottom: 'Page bottom'
   breadcrumb: 'Breadcrumb'
   content: Content
+
+libraries:
+  - unique/global-styling
+  - unique/unique

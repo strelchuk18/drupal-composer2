@@ -19,16 +19,26 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 0
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
+  field_aliases:
+    type: string
+    weight: 2
     region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_drush_command:
+    type: string
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
 hidden:
-  field_aliases: true
-  field_drush_command: true
+  links: true

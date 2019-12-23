@@ -23,20 +23,20 @@ content:
     third_party_settings: {  }
     region: content
   field_aliases:
+    type: string
     weight: 2
+    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
   field_drush_command:
+    type: string
     weight: 1
+    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
 hidden:
   links: true
