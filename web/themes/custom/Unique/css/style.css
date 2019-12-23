@@ -1,10 +1,14 @@
 
 
 /*# sourceMappingURL=style.css.map */
-.left {
-
-}
 .right {
 	float: right; 
 	margin-top: -89px;
+}
+.rightparagraph {
+	float: right;
+	margin-top: -12%;
+	padding-right: 37%;
+	text-transform: uppercase;
+	font-size: 24px;
 }

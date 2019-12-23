@@ -1,0 +1,9 @@
+uuid: d5565e71-a76f-4515-8d7b-81ba5256da93
+langcode: en
+status: true
+dependencies: {  }
+id: base_block
+label: 'base block'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
