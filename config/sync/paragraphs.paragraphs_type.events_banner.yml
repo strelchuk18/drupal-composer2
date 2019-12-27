@@ -1,0 +1,9 @@
+uuid: db74a0c4-820b-4206-a897-c7cd2dc17694
+langcode: en
+status: true
+dependencies: {  }
+id: events_banner
+label: 'Events banner'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

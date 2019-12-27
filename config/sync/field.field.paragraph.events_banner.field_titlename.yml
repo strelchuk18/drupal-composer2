@@ -1,0 +1,19 @@
+uuid: f8a0ef22-3a25-4260-ae9c-2503372c4ccd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titlename
+    - paragraphs.paragraphs_type.events_banner
+id: paragraph.events_banner.field_titlename
+field_name: field_titlename
+entity_type: paragraph
+bundle: events_banner
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,32 @@
+uuid: 5e995210-9411-4cc1-8df7-97d52fd72c4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event_banner.body
+    - field.field.node.event_banner.field_eve
+    - node.type.event_banner
+  module:
+    - text
+    - user
+id: node.event_banner.teaser
+targetEntityType: node
+bundle: event_banner
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_eve: true

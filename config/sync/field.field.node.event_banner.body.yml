@@ -1,0 +1,23 @@
+uuid: d4982812-49c4-4694-87b5-a5f2f2ccaf0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.event_banner
+  module:
+    - text
+id: node.event_banner.body
+field_name: body
+entity_type: node
+bundle: event_banner
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

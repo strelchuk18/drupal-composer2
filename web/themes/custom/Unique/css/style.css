@@ -12,3 +12,38 @@
 	text-transform: uppercase;
 	font-size: 24px;
 }
+.rightbanner {
+	float: right;
+  margin-left: 19%;
+  margin-top: -7%;
+  padding-right: 10%;
+}
+.lefttext {
+	padding-left: 15%;
+	color: #696969;
+}
+.buttonlink {
+	padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #377DF9;
+  padding-right: 0%;
+  width: 3%;
+  margin-left: 27%;
+  margin-top: -4%;
+  text-decoration: none;
+  padding-right: 2%;
+}
+.titletext {
+	padding-left: 15%;
+  color: #4E4E4E;
+  font-weight: bolder;
+  font-size: 27px;
+  margin-top: 3%;
+}
+.field--name-field-button a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin-left: 33%;
+	font-size: 18px;
+}

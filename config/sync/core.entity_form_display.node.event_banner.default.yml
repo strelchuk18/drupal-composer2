@@ -1,0 +1,49 @@
+uuid: 821bdf26-3a88-4e66-a8dd-c4e6f73ee640
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event_banner.body
+    - field.field.node.event_banner.field_eve
+    - node.type.event_banner
+  module:
+    - paragraphs
+id: node.event_banner.default
+targetEntityType: node
+bundle: event_banner
+mode: default
+content:
+  field_eve:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true
