@@ -1,0 +1,19 @@
+uuid: 2a0a07fa-080a-4f0c-9590-17a9d98a08d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_firsttext
+    - paragraphs.paragraphs_type.webform
+id: paragraph.webform.field_firsttext
+field_name: field_firsttext
+entity_type: paragraph
+bundle: webform
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

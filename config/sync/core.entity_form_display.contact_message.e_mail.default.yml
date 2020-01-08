@@ -1,0 +1,48 @@
+uuid: 374cd210-bb70-4db0-81ac-32a7dc05011a
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.e_mail
+id: contact_message.e_mail.default
+targetEntityType: contact_message
+bundle: e_mail
+mode: default
+content:
+  copy:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  mail:
+    weight: -40
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: -50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  preview:
+    weight: 40
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  subject:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

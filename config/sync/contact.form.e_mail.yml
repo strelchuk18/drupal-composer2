@@ -1,0 +1,12 @@
+uuid: 71eec064-ed44-4406-b8d7-57e9b5e0485a
+langcode: en
+status: true
+dependencies: {  }
+id: e_mail
+label: E-Mail
+recipients:
+  - strelchuk18@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

@@ -1,0 +1,39 @@
+uuid: 909c1edc-2a95-4b0b-89e1-5694f99deea7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.webform.field_email
+    - field.field.paragraph.webform.field_firsttext
+    - field.field.paragraph.webform.field_secondbody
+    - paragraphs.paragraphs_type.webform
+  module:
+    - text
+id: paragraph.webform.default
+targetEntityType: paragraph
+bundle: webform
+mode: default
+content:
+  field_email:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_firsttext:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_secondbody:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,23 +1,23 @@
-uuid: e6a36924-c392-4629-a199-2295b3e77f8b
+uuid: 56fa90d7-839a-4ad1-ad4a-e33254e1dafc
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page_type.body
-    - field.field.node.page_type.field_base
-    - node.type.page_type
+    - field.field.node.email.body
+    - field.field.node.email.field_email
+    - node.type.email
   module:
     - entity_reference_revisions
     - user
-id: node.page_type.default
+id: node.email.default
 targetEntityType: node
-bundle: page_type
+bundle: email
 mode: default
 content:
-  field_base:
+  field_email:
     type: entity_reference_revisions_entity_view
-    weight: 0
-    label: hidden
+    weight: 1
+    label: above
     settings:
       view_mode: default
       link: ''

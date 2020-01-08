@@ -47,3 +47,54 @@
 	margin-left: 33%;
 	font-size: 18px;
 }
+.formmail {
+  opacity: 65%;
+  border-radius: 7px 7px 7px 7px;
+  font-size: 36px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #000000;
+  margin: 0 0 6px 0;
+  background: silver;
+  border-style: hidden;
+}
+.buttonmail {
+	padding: 10px 1px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
+  background: #377DF9;
+  width: 10%;
+  margin-left: 4%;
+  margin-top: -4%;
+  border-style: hidden;
+  font-size: 19px;
+}
+.bgform {
+	background-image: url(/themes/custom/Unique/image/bgform.jpg);
+	padding-bottom: 16%;
+}
+.ft {
+  color: white;
+  font-size: 70px;
+  margin-left: 34%;
+  padding-top: 16%;
+}
+.st {
+	color: white;
+  font-size: 28px;
+  width: 27%;
+  position: absolute;
+  margin-left: 37%;
+  text-align: center;
+}
+.form {
+  color: white;
+  padding-top: 8%;
+  margin-left: 30%;
+}
+.field--name-field-email input {
+	padding-bottom: 7px;
+}
+input::placeholder {
+  color: #6F7680;
+  font-size: 30px;
+  padding-left: 3%;
+}

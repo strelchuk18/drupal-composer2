@@ -1,0 +1,27 @@
+uuid: d25d290e-4e36-4421-89a9-56c4dc3dd083
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_email
+    - paragraphs.paragraphs_type.webform
+  module:
+    - text
+id: paragraph.webform.field_email
+field_name: field_email
+entity_type: paragraph
+bundle: webform
+label: Email
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    summary: ''
+    value: "<form>\r\n   <p>Email: <input type=\"email\"></p>\r\n   <p><input type=\"submit\" value=\"Вход\"></p>\r\n  </form>"
+    format: full_html
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

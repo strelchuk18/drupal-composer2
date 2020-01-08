@@ -1,0 +1,49 @@
+uuid: 3b4408e7-60d7-4376-b69a-32e504329bc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.email.body
+    - field.field.node.email.field_email
+    - node.type.email
+  module:
+    - paragraphs
+id: node.email.default
+targetEntityType: node
+bundle: email
+mode: default
+content:
+  field_email:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

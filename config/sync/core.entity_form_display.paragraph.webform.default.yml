@@ -1,0 +1,47 @@
+uuid: 2061e119-2ab2-499a-8322-6ea202dfda48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.webform.field_email
+    - field.field.paragraph.webform.field_firsttext
+    - field.field.paragraph.webform.field_secondbody
+    - paragraphs.paragraphs_type.webform
+  module:
+    - text
+id: paragraph.webform.default
+targetEntityType: paragraph
+bundle: webform
+mode: default
+content:
+  field_email:
+    weight: 0
+    settings:
+      rows: 9
+      placeholder: E-MAIL
+      summary_rows: 3
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_firsttext:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_secondbody:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+hidden:
+  created: true
+  status: true
