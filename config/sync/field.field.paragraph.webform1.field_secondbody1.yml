@@ -1,0 +1,23 @@
+uuid: a98dd155-862f-4010-b49f-4d2f956de820
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_secondbody1
+    - paragraphs.paragraphs_type.webform1
+  module:
+    - text
+id: paragraph.webform1.field_secondbody1
+field_name: field_secondbody1
+entity_type: paragraph
+bundle: webform1
+label: secondbody
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

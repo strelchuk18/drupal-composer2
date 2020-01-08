@@ -88,13 +88,40 @@
 .form {
   color: white;
   padding-top: 8%;
-  margin-left: 30%;
+  margin-left: 23%;
 }
 .field--name-field-email input {
 	padding-bottom: 7px;
 }
 input::placeholder {
-  color: #6F7680;
-  font-size: 30px;
+  color: white;
+  font-size: 35px;
   padding-left: 3%;
+}
+input#edit-email.form-email {
+  opacity: 65%;
+  border-radius: 7px 7px 7px 7px;
+  padding-right: 5%;
+  padding-bottom: 2.5%;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #000000;
+  margin: 0 0 6px 0;
+  background: silver;
+  border-style: hidden;
+  padding-block-start: 20px;
+  padding-block-end: 10px;
+}
+.webform-actions input {
+  padding: 10px 1px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
+  background: #377DF9;
+  width: 25%;
+  margin-left: 4%;
+  margin-top: -4%;
+  border-style: hidden;
+  font-size: 19px;
+}
+.webform-actions {
+  margin-top: -4.7%;
+  margin-left: 55%;
 }

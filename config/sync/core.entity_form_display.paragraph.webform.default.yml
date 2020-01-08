@@ -4,28 +4,27 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.webform.field_email
+    - field.field.paragraph.webform.field_emailtest
     - field.field.paragraph.webform.field_firsttext
     - field.field.paragraph.webform.field_secondbody
     - paragraphs.paragraphs_type.webform
   module:
     - text
+    - webform
 id: paragraph.webform.default
 targetEntityType: paragraph
 bundle: webform
 mode: default
 content:
-  field_email:
-    weight: 0
+  field_emailtest:
+    weight: 2
     settings:
-      rows: 9
-      placeholder: E-MAIL
-      summary_rows: 3
-      show_summary: false
+      default_data: true
     third_party_settings: {  }
-    type: text_textarea_with_summary
+    type: webform_entity_reference_select
     region: content
   field_firsttext:
-    weight: 1
+    weight: 0
     settings:
       size: 60
       placeholder: ''
@@ -33,7 +32,7 @@ content:
     type: string_textfield
     region: content
   field_secondbody:
-    weight: 2
+    weight: 1
     settings:
       rows: 9
       summary_rows: 3
@@ -44,4 +43,5 @@ content:
     region: content
 hidden:
   created: true
+  field_email: true
   status: true

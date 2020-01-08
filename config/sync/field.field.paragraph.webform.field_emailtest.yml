@@ -1,0 +1,32 @@
+uuid: 3d17ac19-0d37-4c9b-bd9b-13571e034a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_emailtest
+    - paragraphs.paragraphs_type.webform
+    - webform.webform.webform
+  module:
+    - webform
+id: paragraph.webform.field_emailtest
+field_name: field_emailtest
+entity_type: paragraph
+bundle: webform
+label: Emailtest
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: 'element_key: ''email'''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 29a363ef-6818-476b-80eb-f4ec919b9bd9
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

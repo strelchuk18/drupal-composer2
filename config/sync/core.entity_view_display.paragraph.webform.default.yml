@@ -4,22 +4,25 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.webform.field_email
+    - field.field.paragraph.webform.field_emailtest
     - field.field.paragraph.webform.field_firsttext
     - field.field.paragraph.webform.field_secondbody
     - paragraphs.paragraphs_type.webform
   module:
     - text
+    - webform
 id: paragraph.webform.default
 targetEntityType: paragraph
 bundle: webform
 mode: default
 content:
-  field_email:
+  field_emailtest:
     weight: 2
     label: hidden
-    settings: {  }
+    settings:
+      source_entity: true
     third_party_settings: {  }
-    type: text_default
+    type: webform_entity_reference_entity_view
     region: content
   field_firsttext:
     weight: 0
@@ -36,4 +39,5 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-hidden: {  }
+hidden:
+  field_email: true

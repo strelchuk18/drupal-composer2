@@ -1,0 +1,32 @@
+uuid: 5c9daef0-3d1a-47c4-9c0c-f8743a8d29f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_emailform
+    - paragraphs.paragraphs_type.webform1
+    - webform.webform.webform
+  module:
+    - webform
+id: paragraph.webform1.field_emailform
+field_name: field_emailform
+entity_type: paragraph
+bundle: webform1
+label: emailform
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 29a363ef-6818-476b-80eb-f4ec919b9bd9
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform
