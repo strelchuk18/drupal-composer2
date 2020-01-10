@@ -15,4 +15,6 @@ permissions:
   - 'search content'
   - 'use text format restricted_html'
   - 'view media'
+  - 'view paragraph content getting_started'
+  - 'view paragraph content getting_started_items'
   - 'view paragraph content webform'
