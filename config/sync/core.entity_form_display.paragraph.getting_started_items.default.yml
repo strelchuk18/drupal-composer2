@@ -1,0 +1,47 @@
+uuid: e4f18157-af1f-4190-96bb-981c9a533859
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.getting_started_items.field_firstt
+    - field.field.paragraph.getting_started_items.field_img
+    - field.field.paragraph.getting_started_items.field_secondt
+    - image.style.getting_started
+    - paragraphs.paragraphs_type.getting_started_items
+  module:
+    - image
+    - text
+id: paragraph.getting_started_items.default
+targetEntityType: paragraph
+bundle: getting_started_items
+mode: default
+content:
+  field_firstt:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_img:
+    weight: 0
+    settings:
+      preview_image_style: getting_started
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_secondt:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+hidden:
+  created: true
+  status: true

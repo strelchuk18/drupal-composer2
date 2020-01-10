@@ -1,0 +1,48 @@
+uuid: 82e06725-cf13-4639-bb8f-8d77d04e6081
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.getting_started.field_get_button
+    - field.field.paragraph.getting_started.field_gs
+    - field.field.paragraph.getting_started.field_gt
+    - paragraphs.paragraphs_type.getting_started
+  module:
+    - link
+    - paragraphs
+id: paragraph.getting_started.default
+targetEntityType: paragraph
+bundle: getting_started
+mode: default
+content:
+  field_get_button:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_gs:
+    type: entity_reference_paragraphs
+    weight: 5
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_gt:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,9 @@
+uuid: 9603d1af-2557-4dd6-afda-10c6aab865df
+langcode: en
+status: true
+dependencies: {  }
+id: getting_started_items
+label: 'Getting started items'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

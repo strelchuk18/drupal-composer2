@@ -1,0 +1,32 @@
+uuid: 0b896482-d3af-4572-abab-a1ec9b983677
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.getting_started.body
+    - field.field.node.getting_started.field_gett
+    - node.type.getting_started
+  module:
+    - text
+    - user
+id: node.getting_started.teaser
+targetEntityType: node
+bundle: getting_started
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_gett: true

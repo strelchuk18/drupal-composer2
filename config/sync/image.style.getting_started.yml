@@ -1,0 +1,15 @@
+uuid: c27f4104-8dba-4ae7-a69c-ce1307729115
+langcode: en
+status: true
+dependencies: {  }
+name: getting_started
+label: 'Getting started (350x240)'
+effects:
+  07f7574a-36c1-4de2-b7fb-5cf4ea3afdab:
+    uuid: 07f7574a-36c1-4de2-b7fb-5cf4ea3afdab
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 240
+      upscale: false

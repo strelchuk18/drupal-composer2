@@ -1,0 +1,35 @@
+uuid: 6bf02cb7-502a-43b7-8a0e-19ec34e87618
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.getting_started.body
+    - field.field.node.getting_started.field_gett
+    - node.type.getting_started
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.getting_started.default
+targetEntityType: node
+bundle: getting_started
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_gett:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  links: true

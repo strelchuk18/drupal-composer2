@@ -1,0 +1,9 @@
+uuid: 4f6fc764-d885-4a4c-bd9e-f23473056b1a
+langcode: en
+status: true
+dependencies: {  }
+id: getting_started
+label: 'Getting started'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

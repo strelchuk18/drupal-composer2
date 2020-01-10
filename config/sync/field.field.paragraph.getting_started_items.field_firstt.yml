@@ -1,0 +1,19 @@
+uuid: 47bf9f7f-af54-47ee-97cd-eb1ffdad00c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_firstt
+    - paragraphs.paragraphs_type.getting_started_items
+id: paragraph.getting_started_items.field_firstt
+field_name: field_firstt
+entity_type: paragraph
+bundle: getting_started_items
+label: firstt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,28 @@
+uuid: 49c4fbee-0851-4f88-96c1-8ae15a62470c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_get_button
+    - paragraphs.paragraphs_type.getting_started
+  module:
+    - link
+id: paragraph.getting_started.field_get_button
+field_name: field_get_button
+entity_type: paragraph
+bundle: getting_started
+label: 'get button'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://drupal-composer2.loc/node/21'
+    title: 'GET NUCLEAUS'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

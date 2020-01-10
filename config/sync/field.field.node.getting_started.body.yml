@@ -1,0 +1,23 @@
+uuid: f589f8f2-d81a-4742-851c-16b5a06fcb1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.getting_started
+  module:
+    - text
+id: node.getting_started.body
+field_name: body
+entity_type: node
+bundle: getting_started
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

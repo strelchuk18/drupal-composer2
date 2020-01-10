@@ -1,0 +1,46 @@
+uuid: c2f02761-e86a-497e-8ec6-26613980be81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gett
+    - node.type.getting_started
+    - paragraphs.paragraphs_type.getting_started
+  module:
+    - entity_reference_revisions
+id: node.getting_started.field_gett
+field_name: field_gett
+entity_type: node
+bundle: getting_started
+label: gett
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      getting_started: getting_started
+    target_bundles_drag_drop:
+      base_block:
+        weight: 7
+        enabled: false
+      events_banner:
+        weight: 8
+        enabled: false
+      getting_started:
+        enabled: true
+        weight: 9
+      getting_started_items:
+        weight: 10
+        enabled: false
+      webform:
+        weight: 11
+        enabled: false
+      webform1:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

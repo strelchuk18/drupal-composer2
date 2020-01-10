@@ -1,0 +1,46 @@
+uuid: 2396a819-3bb0-41cc-b112-0165d1b6cda2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_gs
+    - paragraphs.paragraphs_type.getting_started
+    - paragraphs.paragraphs_type.getting_started_items
+  module:
+    - entity_reference_revisions
+id: paragraph.getting_started.field_gs
+field_name: field_gs
+entity_type: paragraph
+bundle: getting_started
+label: gs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      getting_started_items: getting_started_items
+    target_bundles_drag_drop:
+      base_block:
+        weight: 7
+        enabled: false
+      events_banner:
+        weight: 8
+        enabled: false
+      getting_started:
+        weight: 9
+        enabled: false
+      getting_started_items:
+        enabled: true
+        weight: 10
+      webform:
+        weight: 11
+        enabled: false
+      webform1:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions
