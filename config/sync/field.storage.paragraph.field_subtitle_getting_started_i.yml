@@ -1,12 +1,12 @@
-uuid: efb878a3-8420-4ed3-9869-9407f7da7568
+uuid: 276cfd32-e4f9-434a-8c7d-3b1ae9d6538d
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.field_secondt
-field_name: field_secondt
+id: paragraph.field_subtitle_getting_started_i
+field_name: field_subtitle_getting_started_i
 entity_type: paragraph
 type: text_with_summary
 settings: {  }

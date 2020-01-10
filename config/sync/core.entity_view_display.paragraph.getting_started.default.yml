@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.getting_started.field_get_button
-    - field.field.paragraph.getting_started.field_gs
-    - field.field.paragraph.getting_started.field_gt
+    - field.field.paragraph.getting_started.field_getting_started_items
+    - field.field.paragraph.getting_started.field_title_getting_started
     - paragraphs.paragraphs_type.getting_started
   module:
     - entity_reference_revisions
@@ -16,7 +16,7 @@ bundle: getting_started
 mode: default
 content:
   field_get_button:
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       trim_length: 80
@@ -27,7 +27,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_gs:
+  field_getting_started_items:
     type: entity_reference_revisions_entity_view
     weight: 1
     label: hidden
@@ -36,7 +36,7 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
-  field_gt:
+  field_title_getting_started:
     weight: 0
     label: hidden
     settings:

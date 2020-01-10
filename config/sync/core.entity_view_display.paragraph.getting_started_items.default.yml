@@ -3,40 +3,39 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.getting_started_items.field_firstt
-    - field.field.paragraph.getting_started_items.field_img
-    - field.field.paragraph.getting_started_items.field_secondt
+    - field.field.paragraph.getting_started_items.field_imagemedia
+    - field.field.paragraph.getting_started_items.field_subtitle_getting_started_i
+    - field.field.paragraph.getting_started_items.field_title_getting_started_item
     - paragraphs.paragraphs_type.getting_started_items
   module:
-    - image
     - text
 id: paragraph.getting_started_items.default
 targetEntityType: paragraph
 bundle: getting_started_items
 mode: default
 content:
-  field_firstt:
+  field_imagemedia:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_subtitle_getting_started_i:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title_getting_started_item:
     weight: 1
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_img:
-    weight: 0
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_secondt:
-    weight: 2
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
     region: content
 hidden: {  }

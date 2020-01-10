@@ -1,0 +1,10 @@
+uuid: c32d2523-4544-45ea-9632-7e9e7c081a17
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.getting_started_item
+label: 'getting started item'
+targetEntityType: media
+cache: true

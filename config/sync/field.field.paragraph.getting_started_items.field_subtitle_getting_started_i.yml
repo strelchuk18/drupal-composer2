@@ -1,17 +1,17 @@
-uuid: 9517ff5b-4d30-4f94-ab6e-757b69bfb1b7
+uuid: 9b5db1e3-4112-4a4c-9d32-13353d3b2afb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_secondt
+    - field.storage.paragraph.field_subtitle_getting_started_i
     - paragraphs.paragraphs_type.getting_started_items
   module:
     - text
-id: paragraph.getting_started_items.field_secondt
-field_name: field_secondt
+id: paragraph.getting_started_items.field_subtitle_getting_started_i
+field_name: field_subtitle_getting_started_i
 entity_type: paragraph
 bundle: getting_started_items
-label: secondt
+label: 'subtitle getting started items'
 description: ''
 required: false
 translatable: false

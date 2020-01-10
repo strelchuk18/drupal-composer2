@@ -1,11 +1,11 @@
-uuid: eeb4a0d8-4c25-44ad-80d9-c058ba5758a3
+uuid: 4c77fb04-3f4e-4483-b034-41ccff719cdd
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_firstt
-field_name: field_firstt
+id: paragraph.field_title_getting_started_item
+field_name: field_title_getting_started_item
 entity_type: paragraph
 type: string
 settings:

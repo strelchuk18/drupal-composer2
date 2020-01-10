@@ -1,12 +1,12 @@
-uuid: ba4303a3-e1ec-4602-a13b-8892218a0c42
+uuid: 4b6b0a86-9b4d-4c3c-bbde-74cc62bc6fab
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-id: paragraph.field_gs
-field_name: field_gs
+id: paragraph.field_getting_started_items
+field_name: field_getting_started_items
 entity_type: paragraph
 type: entity_reference_revisions
 settings:
